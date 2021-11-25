@@ -1,166 +1,66 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    font-weight: normal;
-   }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .container{
-    max-width: 1000px;
-    margin: 16px auto 14.64px;
-    background-color: #E5E5E5;
-        margin-bottom: 47px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
-.logo{
-    margin-top: 16px;
-    width: 100px;
-    height: 38.36px;
-    margin-bottom: 14.64px;
-}
-.nav-li{
+.header-li{
     display: inline-block;
-    Font family: Montserrat
-    Font style: Regular
-    Font size: 18px
-    Line height: 22px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
-       
+    margin-right: 47px;
 }
-.nav-li:not(:last-of-type){
-    margin-right: 26px;
+.header-ul{
+    text-align: center;
 }
-.nav-link{
-     color: black;
-     text-decoration: none;
-}
-.nav-link:hover{
-    color:#FA4A0C;
-}
-
-.sec-image{
-    width: 1000px;
-    height: 314px;
-    top: 138px;
-    margin-bottom: 47px;
-  
-    
-}
-.main{
-    background-color: #E5E5E5;
-    width: 1000px;
-    margin-left: 220px;
-}
-.form1{
-   width: 183px;
-   height: 27px;
-   background-color: #C4C4C4;
-   color: #000000;
-   Font family: Montserrat
-    Font style: Regular
-    Font size: 14px
-    Line height: 17px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
-    
-}
-.div-form1{
-    margin-bottom: 10px;
-}
-
-.form2{
-    width: 183px;
-   height: 27px;
-   background-color: #C4C4C4;
-   color: #000000;
-   Font family: Montserrat
-    Font style: Regular
-    Font size: 14px
-    Line height: 17px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
-}
-
-.div-form2{
-    margin-bottom: 10px;
-}
-
-.form3{
-    width: 183px;
-   height: 27px;
-   background-color: #C4C4C4;
-   color: #000000;
-   Font family: Montserrat
-    Font style: Regular
-    Font size: 14px
-    Line height: 17px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
-}
-.div-form3{
-    margin-bottom: 10px;
-}
-.form4{
-    Font family: Montserrat
-    Font style: Regular
-    Font size: 14px
-    Line height: 17px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
+.header-li > a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
     color: #000000;
+    text-decoration: none;
 }
-.div-form4{
-    margin-bottom: 7px;
+.header{
+    padding: 53px 0;
 }
-.form5{
-    Font family: Montserrat
-    Font style: Regular
-    Font size: 14px
-    Line height: 17px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
+.bg-section{
+    background-image: url('../img/bg.png');
+    padding-top: 138px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 1300px;
+    height: 500px;
 }
-.div-form5{
-    margin-bottom: 7 px;
+.bg-text{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
 }
-.form6{
-    Font family: Montserrat
-    Font style: Regular
-    Font size: 14px
-    Line height: 17px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%
-    color: #000000;
-    background-color: #C4C4C4;
+.button{
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #162C38;
+    padding: 10px 120px;
+    margin: 0 auto;
 }
-.div-form6{
-    magin-bottom: 9px;
+.bg-section2{
+    background-color: #1A6E88;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
-.form7{
-    width: 142px;
-    height: 28px;
-    left: 234px;
-    background-color: #C4C4C4;
-    margin-left: 14px;
-    margin-top: 9px;
-}
-.div-form7{
-    margin-bottom: 37px;
-}
-.pic{
-    width: 550px;
-    height: 312,09px;
+.bg-text2{
+    max-width: 726px;
+    height: 265px;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    padding: 135px 280px;
 }
