@@ -7,7 +7,7 @@
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(5, 1fr);
     gap: 44px;
-    height: 1100px;
+    height: 177vh;
 }
 
 .item:nth-child(1){
