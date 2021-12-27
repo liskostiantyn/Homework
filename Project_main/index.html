@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./wow/animate.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header header-sticky">
         <div class="container header-container">
             <div class="logo">
                 <div>
@@ -27,8 +27,14 @@
                         Startup landing template
                     </p>
                 </div>
-
             </div>
+            <div class="menu">
+                <input class="checkbox" checked type="checkbox">
+                <div class="check-wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                </div>
             <nav class="header-nav">
                 <ul>
                     <li class="header-li">
@@ -48,37 +54,114 @@
                     </button>
                 </div>
             </nav>
-        </div>
     </header>
+    <section class="header">
+        <div class="container header-wrapper">
+            <div>
+                <h1 class="title">
+                    Build stunning websites & apps.
+                </h1>
+                <p class="header-text">
+                    Create live segments and target the right people for messages based on their behaviors.
+                </p>
+                <div class="button-container">
+                    <button class="button"> 
+                        Get started
+                    </button>
+                    <button class="button button-white">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img class="header-wrapper-img" src="./img/header/header.png" alt="">
+            </div>
+        </div>
+    </section>
     <section class="section-1">
-        <div class="container what">
-           <div class="what-text1">
-             <p class="bold wow bounceInLeft" data-wow-duration="3s">
-                 What is it about?
-             </p>
-             <p class="wow bounceInRight" data-wow-duration="3s">
-                 Building a website for a startup that looks amazing is not a rocket science anymore.
-             </p>
-           </div>
-           <div class="what-text2">
-               <p class="bold wow bounceInLeft" data-wow-duration="3s">
-                 Who is it for?
-               </p>
-               <p class="wow bounceInRight" data-wow-duration="3s">
-                 Startups, small companies and teams, entrepreneurs and web developers.
-               </p>
-           </div>
+         <div class="container what">
+            <div class="what-text1">
+                <p class="bold wow bounceInLeft" data-wow-duration="3s">
+                    What is it about?
+                </p>
+                <p class="wow bounceInRight" data-wow-duration="3s">
+                    Building a website for a startup that looks amazing is not a rocket science anymore.
+                </p>
+            </div>
+            <div class="what-text2">
+                <p class="bold wow bounceInLeft" data-wow-duration="3s">
+                    Who is it for?
+                </p>
+                <p class="wow bounceInRight" data-wow-duration="3s">
+                    Startups, small companies and teams, entrepreneurs and web developers.
+                </p>
+            </div>
         </div>
         <div class="container icons-main">
-                <img src="./img/the_new_york_times.svg" alt="">
-                <img src="./img/forbes.png" alt="">
-                <img src="./img/apple.svg" alt="">
-                <img src="./img/maschable.svg" alt="">
-                <img src="./img/vsj.svg" alt="">
-                <img src="./img/google.svg" alt="">
+                    <img src="./img/the_new_york_times.svg" alt="">
+                    <img src="./img/forbes.png" alt="">
+                    <img src="./img/apple.svg" alt="">
+                    <img src="./img/maschable.svg" alt="">
+                    <img src="./img/vsj.svg" alt="">
+                    <img src="./img/google.svg" alt="">
         </div>
-     </section>
-     <section class="manage">
+    </section>
+    <section class="easily">
+        <div class="container easily-flex">
+            <div class="easily-img__container">
+                <img class="easily-img" src="./img/easily/1.png" alt="">
+            </div>
+            <div class="easily-text">
+                <p class="easily-green">
+                    Features
+                </p>
+                <h3 class="easily-inner">
+                    Easily find leads and customers
+                </h3>
+            <p class="easily-regular">
+                Send one-off and automated email, push, and in-app messages to people. Create better stories.
+            </p>
+            <div class="easily-flex">
+                <div class="easily-icon">
+                    <img src="./img/easily/compass.svg" alt="">
+                </div>
+                <p class="easily-flex_text easily-blue">
+                    Acquire new customers
+                </p>
+            </div>
+            <p class="easily-normal">
+                Everything you need to start building – including open-source code, documentation.
+                <div class="easily-line">
+                </div>
+            </p>
+           
+            <div class="easily-flex">
+                <div class="easily-icon">
+                    <img src="./img/easily/house.svg" alt="">
+                </div>
+                <p class="easily-flex_text">
+                    Engage users
+                </p>
+            </div>
+                <div class="easily-line__small">
+                </div>
+            <div class="easily-flex">
+                    <div class="easily-icon">
+                        <img src="./img/easily/plattform.svg" alt="">
+                    </div>
+                    <p class="easily-flex_text">
+                        Develop across platforms
+                    </p>
+                </div>
+                <div class="easily-line__small">
+                </div>
+            </div>
+            <div class="easily-big__img">
+                <img src="./img/easily/easily-screen.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="manage">
         <div class="container manage-flex">
             <div>
                 <img class="manage-animation" src="./img/manage/1.png" alt="">
@@ -112,7 +195,7 @@
                     </div>
                 </div>
         </div>
-     </section>
+    </section>
     <section class="busy">
         <div class="container busy-flex">
             <div>
@@ -228,7 +311,75 @@
             </div>
         </div>
     </section>
-       <section class="section-3">
+    <section class="about">
+        <div class="container">
+            <div class="about-text">
+                <h3 class="about-hiring">
+                    We’re hiring
+                </h3>
+                    <p class="about-team">
+                        We’re a team of lifelong learners. We’re equal parts left and right brained.
+                    </p>
+                 <div>
+                    <button class="about-button">
+                        More about company
+                    </button>
+                </div>
+            </div>
+            <div class="about-item__container">
+                <div class="about-items">
+                    <div>
+                        <p class="about-position">
+                            Front-End Developer
+                        </p>
+                        <p class="about-place">
+                            Los Angeles / Remote
+                        </p>
+                        <p class="about-icon">
+                            >
+                        </p>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veritatis aliquid doloremque cupiditate enim. Mollitia veniam atque temporibus repudiandae natus. Obcaecati deserunt cumque illo doloribus ab ea excepturi at animi!
+                    </p>
+                </div>
+                <div class="about-items">
+                    <div>
+                        <p class="about-position">
+                            Community Manager
+                        </p>
+                        <p>
+                            New York / Full-Time
+                        </p>
+                        <p class="about-icon">
+                            >
+                        </p>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veritatis aliquid doloremque cupiditate enim. Mollitia veniam atque temporibus repudiandae natus. Obcaecati deserunt cumque illo doloribus ab ea excepturi at animi!
+                    </p>
+                </div>
+                <div class="about-items">
+                    <div>
+                        <p class="about-position">
+                            UX/UI Designer
+                        </p>
+                        <p>
+                            New York / Full-Time
+                        </p>
+                        <p class="about-icon">
+                            >
+                        </p>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veritatis aliquid doloremque cupiditate enim. Mollitia veniam atque temporibus repudiandae natus. Obcaecati deserunt cumque illo doloribus ab ea excepturi at animi!
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
         <div class="container">
             <div class="section-text3">
                 <p class="section-text3-text1">
@@ -263,19 +414,27 @@
                 <p class="free-text">
                     Get notified about company updates, news and blog posts. We hate spam.
                 </p>
+               <div>
                 <form action="">
+                    <div class="placeholder">
                     <input placeholder="Enter your email" class="free-input" required type="text">
+                    </div>
+                    <div>
                     <button class="button">
                         Get started
                     </button>
+                    </div>
                 </form>
+                </div>
+                </div>
             </div>
         </div>
     </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./script/script.js"></script>
         <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
         <script src="./wow/wow.min.js"></script>
-        <script>
+    <script>
         new WOW().init();
     </script>
 </body>
