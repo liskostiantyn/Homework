@@ -4,3 +4,9 @@ $('.about-items > div').on('click', function(){
     $(this).toggleClass('toggleColor');
     $(this).next('p').slideToggle(300).toggleClass('toggleColor')
 })
+
+$('.carusel').slick({
+    // autoplay: true,
+    autoplaySpeed: 5000,
+    dots: true,
+});

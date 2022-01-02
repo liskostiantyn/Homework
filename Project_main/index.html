@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/modal.css">
     <link rel="stylesheet" href="./wow/animate.css">
 </head>
 <body>
@@ -29,31 +32,33 @@
                 </div>
             </div>
             <div class="menu">
-                <input class="checkbox" checked type="checkbox">
+                <input class="checkbox" type="checkbox">
                 <div class="check-wrapper">
                     <div class="check"></div>
                     <div class="check"></div>
                     <div class="check"></div>
                 </div>
-            <nav class="header-nav">
-                <ul>
-                    <li class="header-li">
-                        <a href="">
-                            Home
-                        </a>
-                    </li>
-                    <li class="header-li">
-                        <a href="">
-                            Stories
-                        </a>
-                    </li>
-                </ul>
-                <div>
-                    <button class="button">
-                        Get started
-                    </button>
-                </div>
-            </nav>
+                <nav class="header-nav">
+                    <ul>
+                        <li class="header-li">
+                            <a href="">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header-li">
+                            <a href="">
+                                Stories
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="button">
+                            Get started
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
     <section class="header">
         <div class="container header-wrapper">
@@ -68,7 +73,7 @@
                     <button class="button"> 
                         Get started
                     </button>
-                    <button class="button button-white">
+                    <button id="modal-button" class="button button-white">
                         Learn more
                     </button>
                 </div>
@@ -97,13 +102,15 @@
                 </p>
             </div>
         </div>
+    </section>
+    <section class="icons-wrapper">
         <div class="container icons-main">
-                    <img src="./img/the_new_york_times.svg" alt="">
-                    <img src="./img/forbes.png" alt="">
-                    <img src="./img/apple.svg" alt="">
-                    <img src="./img/maschable.svg" alt="">
-                    <img src="./img/vsj.svg" alt="">
-                    <img src="./img/google.svg" alt="">
+            <img src="./img/the_new_york_times.svg" alt="">
+            <img src="./img/forbes.png" alt="">
+            <img src="./img/apple.svg" alt="">
+            <img src="./img/maschable.svg" alt="">
+            <img src="./img/vsj.svg" alt="">
+            <img src="./img/google.svg" alt="">
         </div>
     </section>
     <section class="easily">
@@ -194,6 +201,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
     <section class="busy">
@@ -276,38 +284,71 @@
                 </div>
                 <div class="icons-section-2">
                     <div class="icons-visitors">
-                        <a href="">
-                            <img src="./img/developers.png" alt="">
-                            <p class="text-visitors">
-                                Visitors
-                            </p>
-                        </a>
+                        <img src="./img/developers.png" alt="">
+                        <p class="text-visitors">
+                            Visitors
+                        </p>                    
                     </div>
                     <div class="icons-visitors">
-                        <a href="">
-                            <img src="./img/entertainment.png" alt="">
-                            <p  class="text-visitors">
-                                Entertainment
-                            </p>
-                        </a>
+                        <img src="./img/entertainment.png" alt="">
+                        <p  class="text-visitors">
+                            Entertainment
+                        </p>                        
                     </div>
                     <div class="icons-visitors">
-                        <a href="">
-                            <img src="./img/athlets.png" alt="">
-                            <p  class="text-visitors">
-                                Athletes
-                            </p>
-                        </a>
+                        <img src="./img/athlets.png" alt="">
+                        <p  class="text-visitors">
+                            Athletes
+                        </p>
                     </div>
                     <div class="icons-visitors">
-                        <a href="">
-                            <img src="./img/creatoers.png" alt="">
-                            <p  class="text-visitors">
-                                Creators
-                            </p>
-                        </a>
+                        <img src="./img/creatoers.png" alt="">
+                        <p  class="text-visitors">
+                            Creators
+                        </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="icons-repeat">
+        <div class="container icons-main">
+            <img src="./img/the_new_york_times.svg" alt="">
+            <img src="./img/forbes.png" alt="">
+            <img src="./img/apple.svg" alt="">
+            <img src="./img/maschable.svg" alt="">
+            <img src="./img/vsj.svg" alt="">
+            <img src="./img/google.svg" alt="">
+        </div>
+    </section>
+    <section class="carusel-main">
+        <div class="container">
+            <div class="carusel">
+                <div class="carusel-text">
+                    <p class="carusel-blue">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p class="carusel-normal">
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                    </p>
+                    <div>
+                        <p class="carusel-bold">
+                            Viella Malkovich
+                        </p>
+                        <p class="carusel-small">
+                            Creative Director at Johnson
+                        </p>
+                    </div>
+                    <div class="carusel-image">
+                        <img src="./img/carusel/ballon.png" alt="">
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, itaque?
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur asperiores quas ipsam aspernatur consequatur alias quos, porro accusantium ut qui adipisci necessitatibus molestiae excepturi atque harum possimus. Molestiae repudiandae aspernatur, ab explicabo doloribus harum maiores deserunt earum in aliquid saepe nihil beatae mollitia, iusto perferendis facilis sit ullam, dolor error hic obcaecati? Possimus velit quas excepturi recusandae quisquam atque doloremque harum unde expedita, explicabo et facere ea adipisci perferendis exercitationem vero esse aliquid nulla. Mollitia adipisci provident veniam aut excepturi odio fuga laborum dolor voluptates quaerat, iste rerum rem at est impedit ab dolore? Molestias earum blanditiis sit ducimus maxime.
+                </p>
             </div>
         </div>
     </section>
@@ -418,8 +459,6 @@
                 <form action="">
                     <div class="placeholder">
                     <input placeholder="Enter your email" class="free-input" required type="text">
-                    </div>
-                    <div>
                     <button class="button">
                         Get started
                     </button>
@@ -430,8 +469,125 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container footer-info">
+            <div>
+                <div class="footer-info-logo">
+                    <div>
+                        <img src="./img/footer/base.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="logo-bold">
+                            Foundation
+                        </p>
+                        <p class="logo-regular">
+                            Startup landing template
+                        </p>
+                    </div>
+                </div>
+                <p class="after-logo-text">
+                    Foundation is a website template for startups and small teams. It helps to build a website in no time.
+                </p>
+                <div class="footer-black-link">
+                    <a href="">
+                        <img src="./img/footer/AppStore.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/footer/Google Play.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-list">
+                <p class="footer-title">
+                    Product
+                </p>
+                <ul class="footer-list-ul">
+                    <li>Acquire Users</li>
+                    <li>Content Marketing</li>
+                    <li>Website Templates/li>
+                    <li>Customer Management</li>
+                    <li>Virtual Inbox</li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <p class="footer-title">
+                    Company
+                </p>
+                <ul class="footer-list-ul">
+                    <li>About Foundation</li>
+                    <li>Brand Guidelines</li>
+                    <li>Press Kit</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class="footer-lists-adapt">
+                        <div>
+                            <p class="footer-title">
+                            Product
+                            </p>
+                            <ul class="footer-list_ul">
+                                <li>Acquire Users</li>
+                                <li>Content Marketing</li>
+                                <li>Website Templates</li>
+                                <li>Customer Management</li>
+                                <li>Virtual Inbox</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="footer-title">
+                            Company  
+                            </p>
+                            <ul class="footer-list_ul">
+                                <li>About Foundation</li>
+                                <li>Brand Guidelines</li>
+                                <li>Press Kit</li>
+                                <li>Support</li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+        <div class="footer-hr">
+
+        </div>
+        <div class="container footer-bottom-flex">
+            <div class="link-bottom">
+                <a href="">
+                    Terms
+                </a>
+                <a href="">
+                    Privacy
+                </a>
+                <a href="">
+                    License
+                </a>
+            </div>
+            <div class="icons-bottom">
+                <img src="./img/footer/icon-twitter.png" alt="">
+                <img src="./img/footer/icon-fb.png" alt="">
+                <img src="./img/footer/icon-LinkedIn.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="modal-content">
+                <div>
+                    <img src="./img/modal/modal.png" alt="">
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea esse fugit animi magni repellat accusantium.
+                </p>
+            </div>
+            <p class="close">
+                x
+            </p>
+        </div>
+    </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="./script/script.js"></script>
+        <script src="./script/modal.js"></script>
+        <script src="./script/carusel.js"></script>
         <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
         <script src="./wow/wow.min.js"></script>
     <script>
