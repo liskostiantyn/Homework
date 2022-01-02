@@ -706,6 +706,20 @@ body{
         top: 0;
     }
 }
+
+#up{
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+#up > i{
+    color: white;
+}
+
 .footer-info{
     display: flex;
     justify-content: space-between;
