@@ -5,6 +5,13 @@ $('.about-items > div').on('click', function(){
     $(this).next('p').slideToggle(300).toggleClass('toggleColor')
 })
 
+
+$('.easily-flex > div').on('click', function(){
+    $(this).next('p').slideToggle(300);
+    $(this).next().next('.easily-line__small').toggleClass('easily-toggleBg');
+    $(this).children('.easily-normal').toggleClass('easily-normal');
+})
+
 $('.carusel').slick({
     autoplay: true,
     autoplaySpeed: 5000,
