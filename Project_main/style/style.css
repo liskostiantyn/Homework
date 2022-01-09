@@ -200,16 +200,16 @@ body{
 .easily-icon{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
 }
 .easily-flex_text{
     font-weight: bold;
     font-size: 22px;
     margin-left: 15px;
-    margin-bottom: 8px;
 }
 .easily-blue{
     color: #3142C6;
-    margin-bottom: 8px;
 }
 .easily-normal{
     display: none;
@@ -415,6 +415,7 @@ body{
     align-items: center;
     padding: 110px 0;
     text-align: center;
+    justify-content: space-around;
 }
 .icons-visitors:nth-child(1){
     grid-area: one;
@@ -812,14 +813,22 @@ body{
     .header-wrapper-img{
         width: 95%;
     }
+    .icons-visitors {
+        width: 220px;
+        height: 280px;
+    }
     .section-text3-text2{
         margin-bottom: 10px;
+    }
+    #up {
+               right: 90px;
     }
 }
 
 @media (max-width: 1090px){
     .container{
         max-width: 750px;
+        margin: 0 auto;
     }
     .header-wrapper{
         padding-bottom: 50px;
@@ -835,6 +844,29 @@ body{
     }
     .what{
         padding: 40px 80px;
+    }
+
+    .easily-text {
+        max-width: 380px;
+    }
+    .easily-big__img > img{
+        max-width: 70%;
+    }
+    .easily-big__img {
+        right: -200px;
+        top: 0;
+    }
+    .easily-inner {
+        font-weight: bold;
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+    .easily-container {
+        padding-bottom: 29px;
+    }
+    .icons-visitors {
+        width: 260px;
+        height: 300px;
     }
     .manage{
         background-color: #FCF0E3;
@@ -872,10 +904,7 @@ body{
     .section-text2-text3 {
        padding: 0 100px;
     }
-    .icons-visitors {
-        width: 90%;
-        height: 90%;
-    }
+    
     .icons-section-2{
         display: grid;
         grid-template-areas: 
@@ -885,8 +914,22 @@ body{
         align-items: center;
         padding: 40px 30px;
     }
+
+    .carusel-normal {
+        margin: 0 auto;
+    }
+
+    .carusel-image > img {
+        margin-bottom: -70px;
+        margin-right: -80px;
+    }
+    .about-button {
+        margin-bottom: 20px;
+    }
+
     .section-text3-text1 {
-       padding: 60px 80px 0;
+       padding: 20px 80px 0;
+       margin: 30px auto;
     }
     .section-text3-text2 {
        padding: 26px 80px;
@@ -900,6 +943,9 @@ body{
     }
     .placeholder{
         margin-bottom: 20px;
+    }
+    .free-input {
+        width: 270px;
     }
 }
 /* @media (max-width: 1000px){
@@ -1036,7 +1082,7 @@ body{
         margin-top: 40px;
         
     }
-
+    
     .easily-flex {
         display: flex;
         flex-direction: column;
@@ -1055,13 +1101,9 @@ body{
     .easily-regular {
        margin-bottom: 20px;
     }
-    .easily-big__img{
-        margin: 0 auto;
+    .easily-big__img > img {
+        display: none;
     }
-    .easily-big__img > img{
-        width: 100%;
-    }
-
     .icons-main {
        padding: 10px 20px;
     }
@@ -1105,6 +1147,9 @@ body{
         font-size: 20px;
         margin-bottom: 10px;
     }
+    .easily-big__img > img {
+        width: 40%;
+    }
     .manage-text {
         font-size: 18px;
         line-height: 24px;
@@ -1116,6 +1161,20 @@ body{
     .info-p {
         font-size: 15px;
     }
+    .carusel-normal {
+        font-size: 16px;
+    }
+    .carusel-image > img {
+        margin-right: -120px;
+    }
+
+    .bg-grey {
+        padding: 20px 0;
+    }
+    .free-flex{
+        flex-direction: column;
+    }
+
     .footer-info, .footer-info-logo{
         flex-direction: column;
     }
@@ -1218,9 +1277,12 @@ body{
     .placeholder > input{
         margin-bottom: 20px;
     }
+    #up {
+        right: 120px;
+    }
 }
 @media (max-width: 480px){
-    container{
+    .container{
         max-width: 310px;
     }
     .icons-main{
@@ -1289,9 +1351,60 @@ body{
     .section-text2-text1 {
         padding: 20px 0 0;
     }
+    .carusel-normal{
+        line-height: 24px;
+    }
+    .carusel-image > img {
+        margin-right: -20px;
+        margin-bottom: 50px;
+        width: 150px;
+        height: 140px;
+    }
     .footer-info {
         padding: 30px 0 30px;
     }
 
+}
+@media (max-width: 360px){
+    .container {
+        max-width: 270px;
+    }
+    .about-team {
+        width: 280px;
+    }
+    .section-text2-text2 {
+        font-size: 48px;
+    }
+    .section-text3-text2 {
+        padding: 20px 0;
+    }
+    .section-text3-text1 {
+        padding: 20px 10px 0;
+    }
+    .what {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 77px 80p;
+    }
+    .what-text1 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .what-text2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .carusel-blue {
+       font-size: 18px;
+    }
+    .carusel-normal {
+        line-height: 16px;
+    }
+    .carusel-image > img {
+        margin-right: -50px;
+        margin-bottom: 65px;
+    }
 }
 
