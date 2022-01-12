@@ -161,21 +161,24 @@ body{
     padding: 30px 130px;
     background: #FFFFFF;
 }
-
-.easily-container{
-   position: relative;
-   padding-bottom: 140px;
+.easily{
+    position: relative;
 }
 .easily-img__container{
     position: absolute;
-    left: -120px;
-    top: 258px;
+    left: 0;
+    top: 168px;
 }
 .easily-big__img{
     position: absolute;
     right: 0;
     top: 0;
 }
+.easily-container{
+      padding-bottom: 140px;
+}
+
+
 .easily-text{
     max-width: 461px;
 }
